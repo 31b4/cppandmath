@@ -2,7 +2,7 @@
 
 int main() {
     std::cout <<"\t \t All Prime Number: \n";
-    int num = 1;
+    int num = 2;
     int i = 2;
     bool prime = true;
     while (true) {

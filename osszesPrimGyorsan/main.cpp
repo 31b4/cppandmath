@@ -4,7 +4,7 @@ int main() {
     std::cout <<"\t \t All Prime Number: \n";
     std::cout<<"2 ";//kiirjuk hogy lehessen 3-tol kettesével haladni
     int num = 3;
-    int i = 2;
+    int i = 3;
     bool prime = true;
     while (true) {
         while (prime) {
@@ -15,7 +15,7 @@ int main() {
                 std::cout<<num<<" ";
                 prime = false;
             }
-            i+=2;//megneztuk hogy oszthato 2-vel szoval eleg ha csak a páratlan számokat nézzuk
+            i+=2;//csak paratlan szamokat nezunk szoval kettesével haladhatunk
         }
         i = 2;
         num+=2;//csak paratlan primszamok vannak szoval 3-tol kettesével haladhatunk
